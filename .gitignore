@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### custom ###
+!**/.mvn
+!**/.idea
+!**/target/

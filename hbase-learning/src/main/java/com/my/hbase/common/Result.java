@@ -3,8 +3,8 @@ package com.my.hbase.common;
 import lombok.Data;
 
 @Data
-public class Result {
+public class Result<T> {
     private int code;
     private String message;
-    private Object data;
+    private T data;
 }
