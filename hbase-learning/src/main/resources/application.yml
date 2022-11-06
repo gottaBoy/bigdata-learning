@@ -1,0 +1,9 @@
+# database - hbase
+hbase:
+  zookeeper:
+    quorum: hdp101,hdp102,hdp103
+    property:
+      clientPort: 2181
+zookeeper:
+  znode:
+    parent: /hbase
