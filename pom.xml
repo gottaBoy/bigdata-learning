@@ -11,6 +11,8 @@
     <modules>
         <module>hbase-learning</module>
         <module>zookeeper-learning</module>
+        <module>hadoop-learning</module>
+        <module>hdfs-client</module>
     </modules>
 <!--    <build>-->
 <!--        <plugins>-->
