@@ -1,6 +1,6 @@
 package com.my.bigdata.mapreduce.calculate.max;
 
-import com.my.mapreduce.common.TemperatureMapper;
+import com.my.bigdata.mapreduce.calculate.common.TemperatureMapper;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
