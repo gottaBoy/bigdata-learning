@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/flink-cdc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hadoop-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hadoop-learning/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hbase-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hdfs-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/map-reduce/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-ct/ct-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-ct/ct-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yarn/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeeper-learning/src/main/java" charset="UTF-8" />
   </component>
 </project>
