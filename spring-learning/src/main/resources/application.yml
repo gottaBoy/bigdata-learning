@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+my:
+  config:
+    host: localhost
+    port: 8081
+
+spring:
+  mvc:
+    contentnegotiation:
+      favor-parameter: true # /path?format=json,xml
+    hiddenmethod: # <input type="hidden" name="_method" value="put" />
+      filter:
+        enabled: true
+#    static-path-pattern: /static/**
+  resources:
+    static-locations: ["classpath:/templates/"]
+    add-mappings: true
+    cache:
+      period: 11000

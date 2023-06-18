@@ -1,0 +1,4 @@
+# Project exclude paths
+/mock-common/target/
+/mock-db/target/
+/mock-log/target/

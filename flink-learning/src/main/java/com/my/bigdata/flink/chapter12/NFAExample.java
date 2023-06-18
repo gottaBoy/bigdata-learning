@@ -1,7 +1,5 @@
 package com.my.bigdata.flink.chapter12;
 
-
-
 import org.apache.flink.api.common.functions.RichFlatMapFunction;
 import org.apache.flink.api.common.state.ValueState;
 import org.apache.flink.api.common.state.ValueStateDescriptor;

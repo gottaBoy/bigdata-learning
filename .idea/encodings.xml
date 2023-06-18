@@ -3,14 +3,26 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/flink-cdc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-flink-2/gmall-logger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-flink-2/gmall-logger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-mock/mock-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-mock/mock-db/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-mock/mock-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-mock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-mock/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hadoop-learning/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hadoop-learning/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hbase-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-learning/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hdfs-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hdfs-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/map-reduce/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/project-ct/ct-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/project-ct/ct-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-learning/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yarn/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeeper-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-learning/src/main/resources" charset="UTF-8" />
   </component>
 </project>

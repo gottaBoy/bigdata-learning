@@ -23,6 +23,12 @@
         <module>flink-learning</module>
         <module>project-ct</module>
         <module>flink-cdc</module>
+        <module>flink-tuning</module>
+        <module>flink-tutorial</module>
+        <module>gmall-flink-2</module>
+        <module>gmall-mock</module>
+        <module>flume-interceptor</module>
+        <module>spring-learning</module>
     </modules>
 <!--    <build>-->
 <!--        <plugins>-->

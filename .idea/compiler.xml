@@ -8,17 +8,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hdfs-client" />
+        <module name="gmall-realtime" />
         <module name="ct-producer" />
+        <module name="spring-learning" />
         <module name="ct-analysis" />
         <module name="zookeeper-learning" />
+        <module name="mock-common" />
         <module name="hadoop-learning" />
+        <module name="flink-tutorial" />
         <module name="ct-web" />
         <module name="hbase-learning" />
         <module name="ct-common" />
         <module name="ct-cache-ext" />
+        <module name="gmall-flink-cdc" />
+        <module name="mock-db" />
         <module name="flink-cdc" />
+        <module name="flink-tuning" />
+        <module name="flume-interceptor" />
+        <module name="gmall-logger" />
         <module name="ct-consumer" />
         <module name="ct-consumer-coprocessor" />
+        <module name="mock-log" />
         <module name="flink-learning" />
       </profile>
     </annotationProcessing>
@@ -27,10 +37,14 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="flink-cdc" options="" />
-      <module name="flink-learning" options="-parameters" />
+      <module name="flink-learning" options="" />
       <module name="hadoop-learning" options="-parameters" />
       <module name="hbase-learning" options="-parameters" />
       <module name="hdfs-client" options="-parameters" />
+      <module name="mock-common" options="-parameters" />
+      <module name="mock-db" options="-parameters" />
+      <module name="mock-log" options="-parameters" />
+      <module name="spring-learning" options="-parameters" />
       <module name="zookeeper-learning" options="-parameters" />
     </option>
   </component>

@@ -126,20 +126,16 @@ public class HBaseDDL {
         try {
             // 2. 调用方法修改表格
             // 2.0 获取之前的表格描述
-            TableDescriptor descriptor =
-                    admin.getDescriptor(TableName.valueOf(namespace, tableName));
+            TableDescriptor descriptor = admin.getDescriptor(TableName.valueOf(namespace, tableName));
             // 2.1 创建一个表格描述建造者
             // 如果使用填写 tableName 的方法 相当于创建了一个新的表格描述建造者 没有之前的信息
             // 如果想要修改之前的信息 必须调用方法填写一个旧的表格描述
-            TableDescriptorBuilder tableDescriptorBuilder =
-                    TableDescriptorBuilder.newBuilder(descriptor);
+            TableDescriptorBuilder tableDescriptorBuilder = TableDescriptorBuilder.newBuilder(descriptor);
             // 2.2 对应建造者进行表格数据的修改
             ColumnFamilyDescriptor columnFamily1 = descriptor.getColumnFamily(Bytes.toBytes(columnFamily));
             // 创建列族描述建造者
             // 需要填写旧的列族描述
-            ColumnFamilyDescriptorBuilder
-                    columnFamilyDescriptorBuilder =
-                    ColumnFamilyDescriptorBuilder.newBuilder(columnFamily1);
+            ColumnFamilyDescriptorBuilder columnFamilyDescriptorBuilder = ColumnFamilyDescriptorBuilder.newBuilder(columnFamily1);
             // 修改对应的版本
             columnFamilyDescriptorBuilder.setMaxVersions(version);
             // 此处修改的时候 如果填写的新创建 那么别的参数会初始化

@@ -14,6 +14,13 @@ public class WordCountDriver {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 
+        String INPUT_PATH = "D:\\hadoop\\input\\inputword";
+        String OUTPUT_PATH = "D:\\hadoop\\output\\output888";
+        if (args.length > 0) {
+            INPUT_PATH = args[0];
+            OUTPUT_PATH = args[1];
+        }
+
         // 1 获取job
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf);
@@ -34,8 +41,8 @@ public class WordCountDriver {
         job.setOutputValueClass(IntWritable.class);
 
         // 6 设置输入路径和输出路径
-        FileInputFormat.setInputPaths(job, new Path("D:\\hadoop\\input\\inputword"));
-        FileOutputFormat.setOutputPath(job, new Path("D:\\hadoop\\output\\output888"));
+        FileInputFormat.setInputPaths(job, new Path(INPUT_PATH));
+        FileOutputFormat.setOutputPath(job, new Path(OUTPUT_PATH));
 
         // 7 提交job
         boolean result = job.waitForCompletion(true);

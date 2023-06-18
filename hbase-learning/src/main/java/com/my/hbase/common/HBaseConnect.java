@@ -44,12 +44,10 @@ public class HBaseConnect {
         conf.set("hbase.zookeeper.quorum","hdp101,hdp102,hdp103");
         // 3. 创建 hbase 的连接
         // 默认使用同步连接
-        Connection connection =
-                ConnectionFactory.createConnection(conf);
+        Connection connection = ConnectionFactory.createConnection(conf);
         // 可以使用异步连接
         // 主要影响后续的 DML 操作
-        CompletableFuture<AsyncConnection> asyncConnection =
-                ConnectionFactory.createAsyncConnection(conf);
+        CompletableFuture<AsyncConnection> asyncConnection = ConnectionFactory.createAsyncConnection(conf);
         // 4. 使用连接
         System.out.println(connection);
         // 5. 关闭连接
